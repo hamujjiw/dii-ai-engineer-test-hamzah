@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# Versi dikunci karena artefak model (joblib) bergantung pada versi library saat training.
+fastapi==0.143.3
+uvicorn==0.54.0
+pydantic==2.14.1
+pandas==3.0.6
+numpy==2.5.4
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+torch==2.14.1

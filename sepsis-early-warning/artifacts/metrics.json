@@ -1,0 +1,94 @@
+{
+  "n_rows": 1753,
+  "n_unique_profiles": 100,
+  "cv": "StratifiedGroupKFold k=5, grup = profil fitur",
+  "lactate_missing_flag": false,
+  "weight_xgb": 0.5,
+  "weight_ann": 0.5,
+  "weight_search_auc": {
+    "0.0": 0.9866,
+    "0.1": 0.9971,
+    "0.2": 0.9975,
+    "0.3": 0.9975,
+    "0.4": 0.9975,
+    "0.5": 0.9975,
+    "0.6": 0.9975,
+    "0.7": 0.9975,
+    "0.8": 0.9975,
+    "0.9": 0.9975,
+    "1.0": 0.9473
+  },
+  "xgb_only": {
+    "auc": {
+      "mean": 0.9621,
+      "std": 0.0847
+    },
+    "precision": {
+      "mean": 0.9579,
+      "std": 0.0577
+    },
+    "recall": {
+      "mean": 0.9243,
+      "std": 0.1693
+    },
+    "f1": {
+      "mean": 0.9311,
+      "std": 0.0961
+    }
+  },
+  "ann_only": {
+    "auc": {
+      "mean": 0.9886,
+      "std": 0.0255
+    },
+    "precision": {
+      "mean": 0.9579,
+      "std": 0.0577
+    },
+    "recall": {
+      "mean": 0.9486,
+      "std": 0.115
+    },
+    "f1": {
+      "mean": 0.9483,
+      "std": 0.0603
+    }
+  },
+  "ensemble_threshold_0.5": {
+    "auc": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision": {
+      "mean": 0.9579,
+      "std": 0.0577
+    },
+    "recall": {
+      "mean": 0.9243,
+      "std": 0.1693
+    },
+    "f1": {
+      "mean": 0.9311,
+      "std": 0.0961
+    }
+  },
+  "ensemble_threshold_0.3": {
+    "auc": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision": {
+      "mean": 0.9579,
+      "std": 0.0577
+    },
+    "recall": {
+      "mean": 0.9243,
+      "std": 0.1693
+    },
+    "f1": {
+      "mean": 0.9311,
+      "std": 0.0961
+    }
+  },
+  "kfold_biasa_bocor_auc_xgb": 1.0
+}
